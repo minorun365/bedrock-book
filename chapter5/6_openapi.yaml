@@ -1,0 +1,27 @@
+openapi: 3.0.0
+info:
+  title: Lambda
+  version: 1.0.0
+paths:
+  /search:
+    get:
+      summary: Search
+      description: aws blogを検索します
+      operationId: search
+      parameters:
+        - name: search_text
+          in: path
+          description: 検索キーワード
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: 検索成功
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  body:
+                    type: string
