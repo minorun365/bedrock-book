@@ -2,7 +2,7 @@
 import boto3
 
 # Bedrockクライアントの作成
-bedrock = boto3.client(service_name="bedrock")
+bedrock = boto3.client("bedrock")
 
 # モデル一覧取得APIの呼び出し
 result = bedrock.list_foundation_models()
