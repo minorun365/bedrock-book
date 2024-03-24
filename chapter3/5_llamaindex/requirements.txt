@@ -1,0 +1,4 @@
+boto3==1.34.69
+llama-index==0.10.23
+llama-index-embeddings-bedrock==0.1.4
+llama-index-llms-bedrock==0.1.5
