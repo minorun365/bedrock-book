@@ -12,23 +12,20 @@ client = boto3.client("bedrock-runtime")
 def predict(input: str):
 
     body = {
-        "textToImageParams": {"text": input},
-        "taskType": "TEXT_IMAGE",
-        "imageGenerationConfig": {
-            "cfgScale": 8,
-            "seed": 0,
-            "width": 512,
-            "height": 512,
-            "numberOfImages": 1,
-        },
+        "text_prompts": [{"text": input, "weight": 1}],
+        "cfg_scale": 10,
+        "seed": 0,
+        "steps": 50,
+        "width": 1024,
+        "height": 1024,
     }
 
     response = client.invoke_model(
-        modelId="amazon.titan-image-generator-v1", body=json.dumps(body)
+        modelId="stability.stable-diffusion-xl-v1", body=json.dumps(body)
     )
 
     body = json.loads(response.get("body").read())
-    image_encoded = body["images"][0]
+    image_encoded = body["artifacts"][0]["base64"]
     image_decoded = base64.decodebytes(bytes(image_encoded, "utf-8"))
     response_image = Image.open(io.BytesIO(image_decoded))
 
