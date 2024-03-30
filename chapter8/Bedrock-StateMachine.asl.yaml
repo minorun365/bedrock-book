@@ -11,7 +11,7 @@ States:
         ConnectionArn: >-
           arn:aws:events:us-east-1:637423213562:connection/qiita-connection/b6f6ee57-612e-4787-ae9e-ee47e6452844
       QueryParameters:
-        query: tag:aws user:moritalous
+        query: bedrock user:moritalous
         per_page: "3"
     Retry:
       - ErrorEquals:
@@ -32,6 +32,8 @@ States:
           Type: Task
           Resource: arn:aws:states:::bedrock:invokeModel
           Parameters:
+            ModelId: >-
+              arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0
             Body:
               anthropic_version: bedrock-2023-05-31
               max_tokens: 500
@@ -53,8 +55,6 @@ States:
                         - 文書の内容から筆者が取り組んだ内容を200文字でまとめてください。
 
                         条件に従って<document>の要点を抽出してください。', $.body)
-            ModelId: >-
-              arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0
           End: true
     ItemsPath: $.ResponseBody
     ResultSelector:
@@ -77,9 +77,13 @@ States:
                 text.$: >-
                   States.Format('以下の文章は、私が最近投稿した技術ブログの内容です。
 
+
                   <documents>
+
                   {}
+
                   </documents>
+
 
                   最近の私のブログの投稿をもとに、私のキャッチコピーを生成してください。また、自己紹介文章を300文字程度で生成してください。',
                   $.Summary)
@@ -114,7 +118,7 @@ States:
                           条件
                           - Markdownのみを出力し、不要な会話文は出力しないでください。
 
-                          私の自己紹介をMarkdown形式で生成してください。', $)
+                          私の自己紹介をMarkdown形式で生成してください。', $.Body.content[0].text)
                   - role: assistant
                     content:
                       - type: text
@@ -140,18 +144,26 @@ States:
                   - role: user
                     content:
                       - type: text
-                        text: |-
+                        text.$: >-
                           States.Format('以下の内容でブログを作成します。
 
+
                           <自己紹介の内容>
+
                           {}
+
                           </自己紹介の内容>
 
+
                           条件
+
                           - プロンプトのみを出力し、不要な会話文は出力しないでください。
+
                           - プロンプトは英語で出力してください。
 
-                          私の自己紹介をもとにアイキャッチ画像を生成するプロンプトを生成してください。', $)
+
+                          私の自己紹介をもとにアイキャッチ画像を生成するプロンプトを生成してください。',
+                          $.Body.content[0].text)
                   - role: assistant
                     content:
                       - type: text
@@ -165,7 +177,7 @@ States:
                 arn:aws:bedrock:us-east-1::foundation-model/stability.stable-diffusion-xl-v1
               Body:
                 text_prompts:
-                  - text.$: $
+                  - text.$: $.Body.content[0].text
                     weight: 1
                 cfg_scale: 10
                 seed: 0
@@ -177,4 +189,3 @@ States:
             End: true
             ResultSelector:
               Image.$: $
-            InputPath: $.Body.content[0].text
