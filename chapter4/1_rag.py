@@ -19,8 +19,7 @@ prompt = ChatPromptTemplate.from_template(
 
 # LLMを指定
 model = BedrockChat(
-    model_id="anthropic.claude-3-sonnet-20240229-v1:0", 
-    model_kwargs={"max_tokens": 1000}
+    model_id="anthropic.claude-3-sonnet-20240229-v1:0", model_kwargs={"max_tokens": 1000}
 )
 
 # チェーンを定義（検索 → プロンプト作成 → LLM呼び出し → 結果を取得）
