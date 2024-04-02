@@ -53,7 +53,9 @@ agent_executor = AgentExecutor(
 
 # Streamlit アプリケーションの設定
 st.title("Bedrock Agent チャット")
-messages = [SystemMessage(content="あなたは質問に対して必ず日本語で回答します。")]
+messages = [
+    SystemMessage(content="あなたは質問に対して必ず日本語で回答します。")
+]
 
 # ユーザー入力の処理
 prompt = st.chat_input("何でも聞いてください。")
