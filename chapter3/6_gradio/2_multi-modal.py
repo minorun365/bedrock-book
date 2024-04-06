@@ -1,5 +1,6 @@
 import base64
 import json
+import mimetypes
 
 import boto3
 import gradio as gr
@@ -57,8 +58,8 @@ def create_message(message: dict, history: list):
 
     # 添付ファイルを追加
     for file in files:
-        path = file["path"]
-        mime_type = file["mime_type"]
+        path = file
+        mime_type = mimetypes.guess_type(path)[0]
 
         content.append(
             {
