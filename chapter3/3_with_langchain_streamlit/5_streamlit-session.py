@@ -1,10 +1,10 @@
 import streamlit as st
-from langchain_community.chat_models import BedrockChat
+from langchain_aws import ChatBedrock
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 
 st.title("Bedrock チャット")
 
-chat = BedrockChat(
+chat = ChatBedrock(
     model_id="anthropic.claude-3-sonnet-20240229-v1:0",
     model_kwargs={"max_tokens": 1000},
     streaming=True,
