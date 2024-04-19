@@ -4,12 +4,9 @@ import nest_asyncio
 import streamlit as st
 from langchain import hub
 from langchain.agents import AgentExecutor, Tool, create_react_agent
-from langchain.prompts.prompt import PromptTemplate
+from langchain_aws import ChatBedrock
 from langchain_community.callbacks import StreamlitCallbackHandler
-from langchain_community.chat_message_histories import StreamlitChatMessageHistory
-from langchain_community.chat_models import BedrockChat
 from langchain_community.tools import DuckDuckGoSearchRun
-from langchain_core.messages import AIMessage, HumanMessage
 
 nest_asyncio.apply()
 
@@ -23,7 +20,7 @@ tools = [
 ]
 
 # チャットモデルの設定
-chat = BedrockChat(
+chat = ChatBedrock(
     model_id="anthropic.claude-3-sonnet-20240229-v1:0",
     model_kwargs={"max_tokens": 1000},
     streaming=True,
@@ -40,11 +37,13 @@ agent_executor = AgentExecutor(
 # Streamlit アプリケーションの設定
 st.title("Bedrock ReAct Agent チャット")
 
+
 async def run_agent(prompt):
     with st.chat_message("assistant"):
         st_callback = StreamlitCallbackHandler(st.container())
         result = await agent_executor.ainvoke({"input": prompt})
         st.write(result["output"])
+
 
 if prompt := st.chat_input("何でも聞いてください。"):
     with st.chat_message("user"):
