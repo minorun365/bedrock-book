@@ -38,24 +38,15 @@ chat = ChatBedrock(
 )
 
 # エージェントの設定
-agent = create_xml_agent(
-    chat,
-    tools,
-    prompt=hub.pull("hwchase17/xml-agent-convo")
-)
+agent = create_xml_agent(chat, tools, prompt=hub.pull("hwchase17/xml-agent-convo"))
 
 agent_executor = AgentExecutor(
-    agent=agent,
-    tools=tools,
-    verbose=True,
-    handle_parsing_errors=True
+    agent=agent, tools=tools, verbose=True, handle_parsing_errors=True
 )
 
 # Streamlit アプリケーションの設定
 st.title("Bedrock Agent チャット")
-messages = [
-    SystemMessage(content="あなたは質問に対して必ず日本語で回答します。")
-]
+messages = [SystemMessage(content="あなたは質問に対して必ず日本語で回答します。")]
 
 # ユーザー入力の処理
 prompt = st.chat_input("何でも聞いてください。")
