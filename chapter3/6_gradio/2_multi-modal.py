@@ -1,3 +1,4 @@
+# Pyhton外部モジュールのインポート
 import base64
 import json
 import mimetypes
@@ -5,19 +6,22 @@ import mimetypes
 import boto3
 import gradio as gr
 
+# Bedrockクライアントを生成
 client = boto3.client("bedrock-runtime")
 
 
+# 画像ファイルの読み込み関数
 def file_base64(path: str):
     with open(path, mode="rb") as f:
         data = base64.b64encode(f.read()).decode("utf-8")
     return data
 
 
+# メッセージを作成する関数
 def create_message(message: dict, history: list):
     messages = []
 
-    # # 履歴
+    # 履歴をメッセージに追加
     for conversation in history:
         if type(conversation[0]) is tuple:
             # 添付ファイルの場合は追加しない
@@ -26,6 +30,7 @@ def create_message(message: dict, history: list):
         user_message = conversation[0]
         assistant_message = conversation[1]
 
+        # ユーザープロンプト
         messages.append(
             {
                 "role": "user",
@@ -38,6 +43,7 @@ def create_message(message: dict, history: list):
             }
         )
 
+        # アシスタントプロンプト
         messages.append(
             {
                 "role": "assistant",
@@ -80,6 +86,7 @@ def create_message(message: dict, history: list):
         }
     )
 
+    # 最新のメッセージをユーザープロンプトとして追加
     messages.append(
         {
             "role": "user",
@@ -89,9 +96,12 @@ def create_message(message: dict, history: list):
     return messages
 
 
+# チャットメッセージ送信時に呼ばれる関数
 def chatbot(message: dict, history: list):
+    # メッセージを生成
     messages = create_message(message, history)
 
+    # モデル呼び出し
     response = client.invoke_model_with_response_stream(
         modelId="anthropic.claude-3-haiku-20240307-v1:0",
         body=json.dumps(
@@ -103,6 +113,7 @@ def chatbot(message: dict, history: list):
         ),
     )
 
+    # 呼び出し結果を画面に表示
     response_text = ""
     for event in response.get("body"):
         chunk = json.loads(event["chunk"]["bytes"])
@@ -111,5 +122,6 @@ def chatbot(message: dict, history: list):
             yield response_text
 
 
+# 画面項目を生成
 demo = gr.ChatInterface(chatbot, multimodal=True)
 demo.launch(server_port=8080)

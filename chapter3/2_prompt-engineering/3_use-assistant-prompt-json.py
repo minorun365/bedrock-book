@@ -1,9 +1,12 @@
+# Pyhton外部モジュールのインポート
 import json
 
 import boto3
 
+# Bedrockクライアントを生成
 client = boto3.client("bedrock-runtime")
 
+# ユーザープロンプト
 user_prompt = """あなたのタスクは文書から必要な情報をピックアップすることです。
 <document></document>タグの内容はAWSのニュース記事からの引用です。
 
@@ -19,8 +22,10 @@ Meta Llama 2, Cohere Command Light, and Amazon Titan Text FMs can now be fine-tu
 
 タイトル、発表日、概要をJSON形式で出力してください。
 """
+# アシスタントプロンプト
 assistant_prompt = "{"
 
+# リクエストボディを定義
 body = {
     "anthropic_version": "bedrock-2023-05-31",
     "max_tokens": 4096,
@@ -30,10 +35,12 @@ body = {
     ],
 }
 
+# モデル呼び出し
 response = client.invoke_model(
     modelId="anthropic.claude-3-sonnet-20240229-v1:0", body=json.dumps(body)
 )
 
+# レスポンスから必要な情報を取得
 response_body = json.loads(response["body"].read())
 assistant_text = response_body["content"][0]["text"]
 
