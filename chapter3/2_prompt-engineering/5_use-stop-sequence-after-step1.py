@@ -1,9 +1,12 @@
+# Pyhton外部モジュールのインポート
 import json
 
 import boto3
 
+# Bedrockクライアントを生成
 client = boto3.client("bedrock-runtime")
 
+# ユーザープロンプト
 user_prompt = """あなたのタスクは料理のレシピを考えることです。
 
 1. 料理を考え、<タイトル></タイトル>タグで出力します。
@@ -12,8 +15,10 @@ user_prompt = """あなたのタスクは料理のレシピを考えることで
 
 パスタのレシピを考えて
 """
+# 停止シーケンス
 stop_sequences = "</材料>"
 
+# リクエストボディを定義
 body = {
     "anthropic_version": "bedrock-2023-05-31",
     "max_tokens": 4096,
@@ -21,10 +26,12 @@ body = {
     "stop_sequences": [stop_sequences],
 }
 
+# モデル呼び出し
 response = client.invoke_model(
     modelId="anthropic.claude-3-sonnet-20240229-v1:0", body=json.dumps(body)
 )
 
+# レスポンスから必要な情報を取得
 response_body = json.loads(response["body"].read())
 assistant_text = response_body["content"][0]["text"]
 
