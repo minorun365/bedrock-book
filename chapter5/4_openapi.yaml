@@ -6,18 +6,18 @@ paths:
   /search:
     get:
       summary: Search
-      description: aws blogを検索します
+      description: Search AWS blogs
       operationId: search
       parameters:
-        - name: search_text
+        - name: search_blog
           in: path
-          description: 検索キーワード
+          description: Search keyword
           required: true
           schema:
             type: string
       responses:
         "200":
-          description: 検索成功
+          description: Search successful
           content:
             application/json:
               schema:
