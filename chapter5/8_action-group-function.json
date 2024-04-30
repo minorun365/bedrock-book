@@ -1,0 +1,11 @@
+{
+    "name": "search-aws-blogs",
+    "parameters": [
+        {
+        "name": "search_blog",
+        "description": "Search aws blogs",
+        "required": "True",
+        "type": "string"
+        }
+    ]
+}
