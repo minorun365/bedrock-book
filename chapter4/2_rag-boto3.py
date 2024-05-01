@@ -12,7 +12,7 @@ kb = boto3.client("bedrock-agent-runtime")
 
 # ボタンが押されたらナレッジベースを呼び出し
 if button:
-    
+
     # ナレッジベースを定義
     response = kb.retrieve_and_generate(
         input={"text": question},
