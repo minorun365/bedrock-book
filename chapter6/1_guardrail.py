@@ -3,7 +3,7 @@ import json
 import boto3
 
 # Bedrockクライアントを作成
-bedrock = boto3.client("bedrock-runtime")
+bedrock_runtime = boto3.client("bedrock-runtime")
 
 # リクエストボディを定義
 body = json.dumps(
@@ -18,7 +18,7 @@ body = json.dumps(
 )
 
 # レスポンスを定義
-response = bedrock.invoke_model(
+response = bedrock_runtime.invoke_model(
    body=body,
    modelId="anthropic.claude-3-sonnet-20240229-v1:0",
    guardrailIdentifier="XXXXXXXXXX", #ここにガードレールのIDを記載する
