@@ -2,10 +2,10 @@
 from typing import List
 
 import chainlit as cl
-from langchain.document_loaders.text import TextLoader
 from langchain.prompts import ChatPromptTemplate
 from langchain.schema import Document, StrOutputParser
 from langchain_aws import ChatBedrock
+from langchain_community.document_loaders import TextLoader
 
 
 # チャットセッション開始時の処理
