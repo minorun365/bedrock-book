@@ -8,8 +8,8 @@
 
 ### Amazon Bedrock 生成AIアプリ開発入門
 
-まだお持ちでない方は、ぜひお買い求めください！
-
 https://www.sbcr.jp/product/4815626440/
+
+まだお持ちでない方は、ぜひお買い求めください！
 
 ![チラシ](https://github.com/minorun365/bedrock-book/assets/74597894/6f862dd4-7eff-4eea-abba-9e0b411bdd8d)
