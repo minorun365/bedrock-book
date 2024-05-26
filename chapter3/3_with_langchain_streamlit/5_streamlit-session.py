@@ -27,6 +27,7 @@ for message in st.session_state.messages:
 
 # チャット入力欄を定義
 if prompt := st.chat_input("何でも聞いてください。"):
+    
     # ユーザーの入力をメッセージに追加
     st.session_state.messages.append(HumanMessage(content=prompt))
 
@@ -37,5 +38,6 @@ if prompt := st.chat_input("何でも聞いてください。"):
     # モデルの呼び出しと結果の画面表示
     with st.chat_message("assistant"):
         response = st.write_stream(chat.stream(st.session_state.messages))
+        
     # モデル呼び出し結果をメッセージに追加
     st.session_state.messages.append(AIMessage(content=response))
