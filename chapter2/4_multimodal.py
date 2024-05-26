@@ -4,7 +4,7 @@ import json
 import boto3
 
 # Bedrock呼び出し用クライアントの作成
-bedrock_runtime = boto3.client(service_name="bedrock-runtime")
+bedrock_runtime = boto3.client("bedrock-runtime")
 
 # 画像ファイルの変換
 with open("image.png", "rb") as image_file:
