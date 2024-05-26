@@ -13,7 +13,7 @@ body = json.dumps(
         "messages": [
             {
                 "role": "user",
-                "content": "日本の総理大臣を新しい順に3名、リストアップしてください",
+                "content": "Bedrockってどういう意味？",
             }
         ],
     }
