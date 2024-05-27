@@ -1,0 +1,25 @@
+{
+  "anthropic_version": "bedrock-2023-05-31",
+  "max_tokens": 1000,
+  "system": "あなたのタスクはStable Diffusionで使用するプロンプトを考案することです。考案したプロンプト以外の出力は行わないでください。",
+  "messages": [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text.$": "States.Format('以下の内容でブログを作成します。\n\n<自己紹介の内容>\n{}\n</自己紹介の内容>\n\n条件\n- プロンプトのみを出力し、不要な会話文は出力しないでください。\n- プロンプトは英語で出力してください。\n\n私の自己紹介をもとにアイキャッチ画像を生成するプロンプトを生成してください。', $.Body.content[0].text)"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": "#"
+        }
+      ]
+    }
+  ]
+}
