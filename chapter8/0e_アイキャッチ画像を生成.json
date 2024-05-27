@@ -1,0 +1,13 @@
+{
+  "text_prompts": [
+    {
+      "text.$": "$.Body.content[0].text",
+      "weight": 1
+    }
+  ],
+  "cfg_scale": 10,
+  "seed": 0,
+  "steps": 50,
+  "width": 1024,
+  "height": 1024
+}
