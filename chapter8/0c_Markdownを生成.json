@@ -1,0 +1,25 @@
+{
+  "anthropic_version": "bedrock-2023-05-31",
+  "max_tokens": 1000,
+  "system": "あなたのタスクはMarkdownを生成することです。",
+  "messages": [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text.$": "States.Format('自己紹介の内容と最近投稿したブログを元にMarkdownを生成してください。\n\n<自己紹介の内容>\n{}\n</自己紹介の内容>\n\n条件\n- Markdownのみを出力し、不要な会話文は出力しないでください。\n\n私の自己紹介をMarkdown形式で生成してください。', $.Body.content[0].text)"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": "#"
+        }
+      ]
+    }
+  ]
+}
