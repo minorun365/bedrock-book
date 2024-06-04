@@ -22,4 +22,4 @@ https://www.sbcr.jp/product/4815626440/
 
 ### エラー等を見つけた際は
 
-本リポジトリの「Issues」へ起票ください。ベストエフォートで対応します。
+本リポジトリの [Issues] (https://github.com/minorun365/bedrock-book/issues)へ起票ください。ベストエフォートで対応します。
