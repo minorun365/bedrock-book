@@ -41,4 +41,4 @@ def predict(input: str):
 demo = gr.Interface(
     fn=predict, inputs=gr.Textbox(info="プロンプトを入力"), outputs=gr.Image()
 )
-demo.launch(server_port=8080)
+demo.launch(server_name="0.0.0.0", server_port=8080)
