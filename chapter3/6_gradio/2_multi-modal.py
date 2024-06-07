@@ -124,4 +124,4 @@ def chatbot(message: dict, history: list):
 
 # 画面項目を生成
 demo = gr.ChatInterface(chatbot, multimodal=True)
-demo.launch(server_port=8080)
+demo.launch(server_name="0.0.0.0", server_port=8080)
