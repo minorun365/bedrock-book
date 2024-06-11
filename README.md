@@ -20,6 +20,14 @@ https://www.sbcr.jp/product/4815626440/
 - `chapter⚫️` ディレクトリ ：各章のハンズオン用コードや、手打ちが大変な設定値などを格納しています。
   - 必要なPythonライブラリを記載した `requirements.txt` も、参考までに格納しています。
 
+
 ### エラー等を見つけた際は
 
 本リポジトリの [Issues](https://github.com/minorun365/bedrock-book/issues) へ起票ください。ベストエフォートで対応します。
+
+
+### 書籍の誤植などのお知らせ
+
+もし書籍の記載内容に誤植があった場合は、以下のSBクリエイティブ公式サイトにて、正誤表を適宜掲載します。
+
+https://www.sbcr.jp/product/4815626440/
