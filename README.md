@@ -28,6 +28,4 @@ https://www.sbcr.jp/product/4815626440/
 
 ### 誤植などのお知らせ
 
-以下のSBクリエイティブ公式サイトにて、正誤表を適宜掲載します。
-
-https://www.sbcr.jp/product/4815626440/
+[SBクリエイティブ公式サイト](https://www.sbcr.jp/product/4815626440/)にて、正誤情報を適宜掲載します。
