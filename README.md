@@ -10,7 +10,7 @@
 
 まだお持ちでない方は、ぜひお買い求めください！
 
-https://www.sbcr.jp/product/4815626440/
+[Amazon Bedrock 生成AIアプリ開発入門](https://www.sbcr.jp/product/4815626440/)
 
 <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/74597894/333667801-6f862dd4-7eff-4eea-abba-9e0b411bdd8d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240611T005852Z&X-Amz-Expires=300&X-Amz-Signature=41a6fa7a34799c2dcaab23bf85c90455b4c03cada5dd3af78436a1b6e500f642&X-Amz-SignedHeaders=host&actor_id=74597894&key_id=0&repo_id=775996749" width="70%" />
 
