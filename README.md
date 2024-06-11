@@ -23,9 +23,9 @@
 
 ### エラー等を見つけた際は
 
-本リポジトリの[Issues](https://github.com/minorun365/bedrock-book/issues)へ起票ください。ベストエフォートで対応します。
+本リポジトリの [Issues](https://github.com/minorun365/bedrock-book/issues) へ起票ください。ベストエフォートで対応します。
 
 
 ### 誤植などのお知らせ
 
-[SBクリエイティブ公式サイト](https://www.sbcr.jp/product/4815626440/)にて、正誤情報を適宜掲載します。
+[SBクリエイティブ公式サイト](https://www.sbcr.jp/product/4815626440/) にて、正誤情報を適宜掲載します。
