@@ -1,5 +1,5 @@
-boto3==1.34.87
+boto3==1.34.122
 distro==1.8.0
 llama-index==0.10.43
-llama-index-embeddings-bedrock==0.2.0
-llama-index-llms-bedrock==0.1.8
+llama-index-embeddings-bedrock==0.2.1
+llama-index-llms-bedrock-converse==0.1.3
