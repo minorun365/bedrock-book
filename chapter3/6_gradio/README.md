@@ -6,18 +6,18 @@
 - Anthropic社の「Claude 3 Haiku」モデルの有効化（第2章：p.80参照）
 - Stability AI社の「SDXL 1.0」モデルの有効化（第2章：p.80参照）
 
-Cloud9のPython3.9の環境ではライブラリーの依存関係の解決ができないため、Python3.10の環境を使用します。
+Cloud9のPython3.9の環境ではライブラリーの依存関係の解決ができないため、Python3.11をインストールします。
 
-以下のコマンドを実行して、Python3.10のDockerコンテナを起動します。
+以下のコマンドを実行して、Python3.11をインストールします。
 
 ```shell
-docker run -it -v $PWD:/work -v ~/.aws:/root/.aws -p 8080:8080 -w /work python:3.10 bash
+sudo dnf install -y python3.11 python3.11-pip
 ```
 
 以下のコマンドを実行して、必要なライブラリをインストールします。
 
 ```shell
-pip install -r requirements.txt
+pip3.11 install -r requirements.txt
 ```
 
 ## 1_image-generator.py
@@ -25,7 +25,7 @@ pip install -r requirements.txt
 以下のコマンドを実行してPythonファイルを実行します。
 
 ```shell
-python3 1_image-generator.py
+python3.11 1_image-generator.py
 ```
 
 画面上部にあるPreviewをクリックし、Preview Running Applicationをクリックします。
@@ -39,7 +39,7 @@ input入力欄に`An astronaut riding a green horse`などを入力し、`Submit
 以下のコマンドを実行してPythonファイルを実行します。
 
 ```shell
-python3 python3 2_multi-modal.py
+python3.11 2_multi-modal.py
 ```
 
 画面上部にあるPreviewをクリックし、Preview Running Applicationをクリックします。
@@ -81,12 +81,3 @@ python3 python3 2_multi-modal.py
         ),
     )
     ```
-
-
-## 後処理
-
-Dockerコンテナを抜けます
-
-```shell
-exit
-```
