@@ -3,11 +3,11 @@ from llama_index.core import SimpleDirectoryReader, StorageContext, VectorStoreI
 from llama_index.core.node_parser import SentenceSplitter
 from llama_index.core.storage.docstore import SimpleDocumentStore
 from llama_index.embeddings.bedrock import BedrockEmbedding
-from llama_index.llms.bedrock import Bedrock
+from llama_index.llms.bedrock_converse import BedrockConverse
 from tokenizers import Tokenizer
 
 # Bedrockを生成
-llm = Bedrock(
+llm = BedrockConverse(
     model="anthropic.claude-3-sonnet-20240229-v1:0",
 )
 

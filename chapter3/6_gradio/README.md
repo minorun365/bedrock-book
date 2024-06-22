@@ -48,6 +48,41 @@ python3 python3 2_multi-modal.py
 
 終わったら`Ctrl` + `c`でGradioアプリを終了します。
 
+### Claude 3.5 Sonnetへの対応
+
+サンプルコードではClaude 3 Haikuを使用していますが、Claude 3.5 Sonnetを使用する場合は、モデルを有効化した上で、`modelId`の指定を変更してください。
+
+* 変更前
+    ```python
+    # モデル呼び出し
+    response = client.invoke_model_with_response_stream(
+        modelId="anthropic.claude-3-haiku-20240307-v1:0",
+        body=json.dumps(
+            {
+                "anthropic_version": "bedrock-2023-05-31",
+                "max_tokens": 300,
+                "messages": messages,
+            }
+        ),
+    )
+    ```
+
+* 変更後
+    ```python
+    # モデル呼び出し
+    response = client.invoke_model_with_response_stream(
+        modelId="anthropic.claude-3-5-sonnet-20240620-v1:0",
+        body=json.dumps(
+            {
+                "anthropic_version": "bedrock-2023-05-31",
+                "max_tokens": 300,
+                "messages": messages,
+            }
+        ),
+    )
+    ```
+
+
 ## 後処理
 
 Dockerコンテナを抜けます
