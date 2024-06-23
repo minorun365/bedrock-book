@@ -32,7 +32,7 @@
 
 ## 書籍刊行後のアップデート補足
 
-### 2024/6/20 新モデル「Claude 3.5 Sonnet」がリリース！（対象：第2章ほか）
+### 2024/6/20：新モデル「Claude 3.5 Sonnet」がリリース！（対象：第2章ほか）
 
 Anthropic社の新モデルで、Claude 3 Sonnetの後継となります。性能・コストともにClaude 3 Opusをも上回るとされています。
 
@@ -48,13 +48,13 @@ https://qiita.com/minorun365/items/cd46235d5e446b1f41c5
 - Bedrockでは、GUIやAPI経由での単体モデル呼び出しに対応していますが、応用機能（ナレッジベースやエージェント）へは未対応です（2024/6/20時点）。
 - Knowkedge bases for Amazon Bedrockにおいては、 `Retrieve` APIを利用すればClaude 3.5 Sonnetをすぐに活用できます（書籍P.216参照）。
 
-### 2024年7月 Claude 3シリーズがAWS東京リージョンに対応予定（対象：第2章）
+### 2024年7月：Claude 3シリーズがAWS東京リージョンに対応予定（対象：第2章）
 
 参考記事（クラウドWatch）
 
 https://cloud.watch.impress.co.jp/docs/event/1601745.html
 
-### 2024年内 Amazon Q Businessが日本語およびAWS東京リージョンに対応予定（対象：第9章）
+### 2024年内：Amazon Q Businessが日本語およびAWS東京リージョンに対応予定（対象：第9章）
 
 参考記事（クラウドWatch）
 
