@@ -32,7 +32,7 @@
 
 ## ✨ 書籍刊行後のアップデート補足
 
-### 2024/6/20：新モデル「Claude 3.5 Sonnet」がリリース！（対象：第2章ほか）
+### 2024/6/20：Anthropic社の新モデル「Claude 3.5 Sonnet」がリリース！（対象：第2章ほか）
 
 Anthropic社の新モデルで、Claude 3 Sonnetの後継となります。性能・コストともにClaude 3 Opusをも上回るとされています。
 
@@ -48,6 +48,12 @@ https://qiita.com/minorun365/items/cd46235d5e446b1f41c5
 
 - Bedrockでは、GUIやAPI経由での単体モデル呼び出しに対応していますが、応用機能（ナレッジベースやエージェント）へは未対応です（2024/6/20時点）。
 - Knowkedge bases for Amazon Bedrockにおいては、 `Retrieve` APIを利用すればClaude 3.5 Sonnetをすぐに活用できます（書籍P.216参照）。
+
+### 2024/6/26：AI21 Labs社の新モデル「Jumba-Instruct」がリリース！（対象：第２章）
+
+同社の既存モデル「Jurassic-2」シリーズを上回る高性能モデル。256Kトークンという大容量のコンテキストウィンドウに対応。言語は英語のみ。
+
+https://aws.amazon.com/jp/blogs/machine-learning/ai21-labs-jamba-instruct-model-is-now-available-in-amazon-bedrock/
 
 ### 2024年7月：Claude 3シリーズがAWS東京リージョンに対応予定（対象：第2章）
 
