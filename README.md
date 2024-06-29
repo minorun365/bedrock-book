@@ -81,3 +81,4 @@ https://cloud.watch.impress.co.jp/docs/event/1601745.html
 - 星野ぽぽぽさん [【書評】Amazon Bedrock 生成 AI アプリ開発入門｜星野ぽぽぽ(noteのすがた)](https://note.com/hoshino_popopo_/n/nbef8bb5cc07f)
 - kazzpapa3さん [Amazon Bedrock 生成AIアプリ開発入門 の書評 という名の雑記 - ほぼ自分のための備忘録ブログ](https://blog.kazzpapa3.com/blog/2024/06/26/amazon-bedrock-ai/)
 - 石原直樹さん [「Amazon Bedrock 生成AIアプリ開発入門」 レビュー #Bedrock開発入門 #AWS - Qiita](https://qiita.com/Naoki_Ishihara/items/589e8ac423ed2a5ffcee)
+- kzk_maedaさん [Bedrock開発入門を読みました｜kzk_maeda](https://note.com/kzk_maeda/n/nffa11ccb9389?sub_rt=share_pb)
