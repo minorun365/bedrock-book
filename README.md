@@ -68,7 +68,7 @@ https://cloud.watch.impress.co.jp/docs/event/1601745.html
 https://cloud.watch.impress.co.jp/docs/event/1601745.html
 
 
-## 🧑‍💻 読者のみなさまの書評ブログ紹介
+## 💻 読者のみなさまの書評ブログ紹介
 
 たくさんの素敵なアウトプット、ありがとうございます！！🙇‍♂️
 
