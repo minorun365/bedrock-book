@@ -84,3 +84,4 @@ https://cloud.watch.impress.co.jp/docs/event/1601745.html
 - kzk_maedaさん [Bedrock開発入門を読みました｜kzk_maeda](https://note.com/kzk_maeda/n/nffa11ccb9389?sub_rt=share_pb)
 - 山本紘暉さん [【書評】Amazon Bedrock 生成AIアプリ開発入門 [AWS深掘りガイド] | DevelopersIO](https://dev.classmethod.jp/articles/book-review-amazon-bedrock-genai-app-dev-intro/)
 - つくぼしさん [AWSにおける生成AIアプリ開発を学ぶには最適の入門書「Amazon Bedrock 生成AIアプリ開発入門」 | DevelopersIO](https://dev.classmethod.jp/articles/review-bedrock-genai-app-dev-intro/)
+- 平野文雄さん [「Amazon Bedrock 生成AIアプリ開発入門」のススメ | DevelopersIO](https://dev.classmethod.jp/articles/recommend-bedrock-genai-app-dev-intro/)
