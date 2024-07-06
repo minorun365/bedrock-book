@@ -88,3 +88,5 @@ https://cloud.watch.impress.co.jp/docs/event/1601745.html
 - Akihiro Uenoさん [『Amazon Bedrock 生成AIアプリ開発入門』の感想をば](https://zenn.dev/ueniki/articles/50c73a94b186ce)
 - yuki_inkさん [『Amazon Bedrock 生成AIアプリ開発入門』 から始めるAIエージェント #AWS - Qiita](https://qiita.com/yuki_ink/items/097bbe9893359e12996f?utm_campaign=post_article&utm_medium=twitter&utm_source=twitter_share)
 - しまさん [【感想】『Amazon Bedrock 生成AIアプリ開発入門』を読みました](https://zenn.dev/os1ma/articles/27bf3bd821065d)
+- issyさん [書籍「Amazon Bedrock 生成AIアプリ開発入門-第４章-」 × AWS Summit Japan 2024](https://zenn.dev/issy/articles/bedrock-book-aws-summit-2024)
+- Shinodaさん [書評「Amazon Bedrock 生成AIアプリ開発入門」｜Shinoda](https://note.com/yukkie1114/n/nb97f45b13a2f)
