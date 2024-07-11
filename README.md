@@ -55,6 +55,12 @@ https://qiita.com/minorun365/items/cd46235d5e446b1f41c5
 
 https://aws.amazon.com/jp/blogs/machine-learning/ai21-labs-jamba-instruct-model-is-now-available-in-amazon-bedrock/
 
+### 2024/7/11：生成AI関連の大型アップデート多数（Bedrock、Amazon Q、ほか新サービスなど）
+
+解説スライドを公開しています。本書を読まれた方は、アップデートをより理解しやすいと思います！
+
+[宇宙最速で7/11未明のAmazon Bedrock大型アプデを解説 🚀 - Speaker Deck](https://speakerdeck.com/minorun365/11wei-ming-noamazon-bedrockda-xing-apudewojie-shuo)
+
 ### 2024年7月：Claude 3シリーズがAWS東京リージョンに対応予定（対象：第2章）
 
 参考記事（クラウドWatch）
