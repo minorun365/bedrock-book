@@ -65,13 +65,13 @@ https://aws.amazon.com/jp/blogs/machine-learning/ai21-labs-jamba-instruct-model-
 
 参考記事（クラウドWatch）
 
-https://cloud.watch.impress.co.jp/docs/event/1601745.html
+[AWS、Claude 3やAmazon Q for Business日本語版の東京リージョンでの提供時期などを明らかに - クラウド Watch](https://cloud.watch.impress.co.jp/docs/event/1601745.html)
 
 ### 2024年内：Amazon Q Businessが日本語およびAWS東京リージョンに対応予定（対象：第9章）
 
 参考記事（クラウドWatch）
 
-https://cloud.watch.impress.co.jp/docs/event/1601745.html
+[AWS、Claude 3やAmazon Q for Business日本語版の東京リージョンでの提供時期などを明らかに - クラウド Watch](https://cloud.watch.impress.co.jp/docs/event/1601745.html)
 
 
 ## 💻 読者のみなさまの書評ブログ紹介
