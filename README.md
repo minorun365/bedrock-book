@@ -96,3 +96,4 @@ https://aws.amazon.com/jp/blogs/machine-learning/ai21-labs-jamba-instruct-model-
 - しまさん [【感想】『Amazon Bedrock 生成AIアプリ開発入門』を読みました](https://zenn.dev/os1ma/articles/27bf3bd821065d)
 - issyさん [書籍「Amazon Bedrock 生成AIアプリ開発入門-第４章-」 × AWS Summit Japan 2024](https://zenn.dev/issy/articles/bedrock-book-aws-summit-2024)
 - Shinodaさん [書評「Amazon Bedrock 生成AIアプリ開発入門」｜Shinoda](https://note.com/yukkie1114/n/nb97f45b13a2f)
+- MK_Techさん [『感想』Amazon Bedrock生成AIアプリ開発入門 #AWS - Qiita](https://qiita.com/MK_Tech/items/a443fb394abbeb2bae60)
