@@ -32,11 +32,13 @@
 
 ## ✨ 書籍刊行後のアップデート補足
 
-### 2024/6/20：Anthropic社の新モデル「Claude 3.5 Sonnet」がリリース！（対象：第2章ほか）
+### ■ 新モデル追加（対象：第2章ほか）
+
+#### 【2024/6/20】 Anthropic社の新モデル「Claude 3.5 Sonnet」がリリース！
 
 Anthropic社の新モデルで、Claude 3 Sonnetの後継となります。性能・コストともにClaude 3 Opusをも上回るとされています。
 
-https://qiita.com/minorun365/items/cd46235d5e446b1f41c5
+- https://qiita.com/minorun365/items/cd46235d5e446b1f41c5
 
 本書のハンズオンへの取り込み方法
 
@@ -49,39 +51,43 @@ https://qiita.com/minorun365/items/cd46235d5e446b1f41c5
 - Bedrockでは、GUIやAPI経由での単体モデル呼び出しに対応していますが、応用機能（ナレッジベースやエージェント）へは未対応です（2024/6/20時点）。
 - Knowkedge bases for Amazon Bedrockにおいては、 `Retrieve` APIを利用すればClaude 3.5 Sonnetをすぐに活用できます（書籍P.216参照）。
 
-### 2024/6/26：AI21 Labs社の新モデル「Jumba-Instruct」がリリース！（対象：第２章）
+#### 【2024/6/26】 AI21 Labs社の新モデル「Jumba-Instruct」がリリース
 
 同社の既存モデル「Jurassic-2」シリーズを上回る高性能モデル。256Kトークンという大容量のコンテキストウィンドウに対応。言語は英語のみ。
 
-https://aws.amazon.com/jp/blogs/machine-learning/ai21-labs-jamba-instruct-model-is-now-available-in-amazon-bedrock/
+- https://aws.amazon.com/jp/blogs/machine-learning/ai21-labs-jamba-instruct-model-is-now-available-in-amazon-bedrock/
 
-### 2024/7/11：生成AI関連の大型アップデート多数（Bedrock、Amazon Q、ほか新サービスなど）
-
-解説スライドを公開しています。本書を読まれた方は、アップデートをより理解しやすいと思います！
-
-[宇宙最速で7/11未明のAmazon Bedrock大型アプデを解説 🚀 - Speaker Deck](https://speakerdeck.com/minorun365/11wei-ming-noamazon-bedrockda-xing-apudewojie-shuo)
-
-### 2024/7/24：Meta社の新モデル「Llama 3.1」シリーズがリリース（対象：第2章）
+#### 【2024/7/24】 Meta社の新モデル「Llama 3.1」シリーズがリリース
 
 同社の既存モデル「Llama 3」シリーズの後継モデル。405Bパラメーター版はプレビュー（利用申請が必要）
 
-https://qiita.com/minorun365/items/e75b57ed360cbced5827
+- https://qiita.com/minorun365/items/e75b57ed360cbced5827
 
-### 2024/7/25：Mistral社の新モデル「Mistral Large 2」がリリース（対象：第2章）
+#### 【2024/7/25】 Mistral社の新モデル「Mistral Large 2」がリリース
 
-https://aws.amazon.com/jp/blogs/machine-learning/mistral-large-2-is-now-available-in-amazon-bedrock/
+- https://aws.amazon.com/jp/blogs/machine-learning/mistral-large-2-is-now-available-in-amazon-bedrock/
 
-### 2024年7月：Claude 3シリーズがAWS東京リージョンに対応予定（対象：第2章）
-
-参考記事（クラウドWatch）
-
-[AWS、Claude 3やAmazon Q for Business日本語版の東京リージョンでの提供時期などを明らかに - クラウド Watch](https://cloud.watch.impress.co.jp/docs/event/1601745.html)
-
-### 2024年内：Amazon Q Businessが日本語およびAWS東京リージョンに対応予定（対象：第9章）
+#### 【2024年7月】 Claude 3シリーズがAWS東京リージョンに対応予定
 
 参考記事（クラウドWatch）
 
-[AWS、Claude 3やAmazon Q for Business日本語版の東京リージョンでの提供時期などを明らかに - クラウド Watch](https://cloud.watch.impress.co.jp/docs/event/1601745.html)
+- [AWS、Claude 3やAmazon Q for Business日本語版の東京リージョンでの提供時期などを明らかに - クラウド Watch](https://cloud.watch.impress.co.jp/docs/event/1601745.html)
+
+### ■ Bedrock応用機能のアップデート（対象：第4〜6章ほか）
+
+#### 【2024/7/11】 生成AI関連の大型アップデート多数（Bedrock、Amazon Q、ほか新サービスなど）
+
+解説スライドを公開しています。本書を読まれた方は、アップデートをより理解しやすいと思います！
+
+- [宇宙最速で7/11未明のAmazon Bedrock大型アプデを解説 🚀 - Speaker Deck](https://speakerdeck.com/minorun365/11wei-ming-noamazon-bedrockda-xing-apudewojie-shuo)
+
+### ■ Amazon Qのアップデート（対象：第9章）
+
+#### 【2024年内】 Amazon Q Businessが日本語およびAWS東京リージョンに対応予定
+
+参考記事（クラウドWatch）
+
+- [AWS、Claude 3やAmazon Q for Business日本語版の東京リージョンでの提供時期などを明らかに - クラウド Watch](https://cloud.watch.impress.co.jp/docs/event/1601745.html)
 
 
 ## 💻 読者のみなさまの書評ブログ紹介
