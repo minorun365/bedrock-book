@@ -61,11 +61,15 @@ https://aws.amazon.com/jp/blogs/machine-learning/ai21-labs-jamba-instruct-model-
 
 [宇宙最速で7/11未明のAmazon Bedrock大型アプデを解説 🚀 - Speaker Deck](https://speakerdeck.com/minorun365/11wei-ming-noamazon-bedrockda-xing-apudewojie-shuo)
 
-### 20204/7/24：Meta社の新モデル「Llama 3.1」シリーズがリリース（対象：第2章）
+### 2024/7/24：Meta社の新モデル「Llama 3.1」シリーズがリリース（対象：第2章）
 
 同社の既存モデル「Llama 3」シリーズの後継モデル。405Bパラメーター版はプレビュー（利用申請が必要）
 
 https://qiita.com/minorun365/items/e75b57ed360cbced5827
+
+### 2024/7/25：Mistral社の新モデル「Mistral Large 2」がリリース（対象：第2章）
+
+https://aws.amazon.com/jp/blogs/machine-learning/mistral-large-2-is-now-available-in-amazon-bedrock/
 
 ### 2024年7月：Claude 3シリーズがAWS東京リージョンに対応予定（対象：第2章）
 
