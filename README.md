@@ -37,7 +37,7 @@
 ハンズオン用の開発環境として案内しているAWS Cloud9の新規利用が、2024/7/29より一部制限されたことを確認しています。
 付録3、4の代替となる手順を以下ブログ記事で公開しました。
 
-[AWS Cloud9が突然、新規利用不可に？ 代替策「SageMaker Studio コードエディタ」の利用手順 #cloud9 - Qiita](https://qiita.com/minorun365/items/f5289163795d5d7b21e2)
+[AWS Cloud9が突然、新規利用不可に？ 代替策「SageMaker Studio コードエディタ」の利用手順](https://qiita.com/minorun365/items/f5289163795d5d7b21e2)
 
 ### ■ 新モデル追加（対象：第2章ほか）
 
