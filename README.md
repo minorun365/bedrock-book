@@ -74,7 +74,7 @@ Anthropic社の新モデルで、Claude 3 Sonnetの後継となります。性�
 
 - https://aws.amazon.com/jp/blogs/machine-learning/mistral-large-2-is-now-available-in-amazon-bedrock/
 
-#### 【2024年7月】 Claude 3シリーズがAWS東京リージョンに対応
+#### 【2024/8/6】 Claude 3シリーズがAWS東京リージョンに対応
 
 - https://qiita.com/minorun365/items/e2202774ea357f311243
 
