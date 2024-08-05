@@ -74,11 +74,9 @@ Anthropic社の新モデルで、Claude 3 Sonnetの後継となります。性�
 
 - https://aws.amazon.com/jp/blogs/machine-learning/mistral-large-2-is-now-available-in-amazon-bedrock/
 
-#### 【2024年7月】 Claude 3シリーズがAWS東京リージョンに対応予定
+#### 【2024年7月】 Claude 3シリーズがAWS東京リージョンに対応
 
-参考記事（クラウドWatch）
-
-- [AWS、Claude 3やAmazon Q for Business日本語版の東京リージョンでの提供時期などを明らかに - クラウド Watch](https://cloud.watch.impress.co.jp/docs/event/1601745.html)
+- https://qiita.com/minorun365/items/e2202774ea357f311243
 
 ### ■ Bedrock応用機能のアップデート（対象：第4〜6章ほか）
 
