@@ -62,21 +62,21 @@ Anthropic社の新モデルで、Claude 3 Sonnetの後継となります。性�
 
 同社の既存モデル「Jurassic-2」シリーズを上回る高性能モデル。256Kトークンという大容量のコンテキストウィンドウに対応。言語は英語のみ。
 
-- https://aws.amazon.com/jp/blogs/machine-learning/ai21-labs-jamba-instruct-model-is-now-available-in-amazon-bedrock/
+- [AI21 Labs Jamba-Instruct model is now available in Amazon Bedrock | AWS Machine Learning Blog](https://aws.amazon.com/jp/blogs/machine-learning/ai21-labs-jamba-instruct-model-is-now-available-in-amazon-bedrock/)
 
 #### 【2024/7/24】 Meta社の新モデル「Llama 3.1」シリーズがリリース
 
-同社の既存モデル「Llama 3」シリーズの後継モデル。405Bパラメーター版はプレビュー（利用申請が必要）
+同社の既存モデル「Llama 3」シリーズの後継モデル。
 
-- https://qiita.com/minorun365/items/e75b57ed360cbced5827
+- [Amazon Bedrock での Meta の Llama 3.1 405B、70B、8B モデルを発表 | Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/announcing-llama-3-1-405b-70b-and-8b-models-from-meta-in-amazon-bedrock/)
 
 #### 【2024/7/25】 Mistral社の新モデル「Mistral Large 2」がリリース
 
-- https://aws.amazon.com/jp/blogs/machine-learning/mistral-large-2-is-now-available-in-amazon-bedrock/
+- [Mistral Large 2 is now available in Amazon Bedrock | AWS Machine Learning Blog](https://aws.amazon.com/jp/blogs/machine-learning/mistral-large-2-is-now-available-in-amazon-bedrock/)
 
 #### 【2024/8/6】 Claude 3シリーズがAWS東京リージョンに対応
 
-- https://qiita.com/minorun365/items/e2202774ea357f311243
+- [ついにClaude 3.5 SonnetがAWS東京リージョンのBedrockで利用可能に🎉 #生成AI - Qiita](https://qiita.com/minorun365/items/e2202774ea357f311243)
 
 ### ■ Bedrock応用機能のアップデート（対象：第4〜6章ほか）
 
