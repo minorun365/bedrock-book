@@ -119,3 +119,4 @@ Anthropic社の新モデルで、Claude 3 Sonnetの後継となります。性�
 - issyさん [書籍「Amazon Bedrock 生成AIアプリ開発入門-第４章-」 × AWS Summit Japan 2024](https://zenn.dev/issy/articles/bedrock-book-aws-summit-2024)
 - Shinodaさん [書評「Amazon Bedrock 生成AIアプリ開発入門」｜Shinoda](https://note.com/yukkie1114/n/nb97f45b13a2f)
 - MK_Techさん [『感想』Amazon Bedrock生成AIアプリ開発入門 #AWS - Qiita](https://qiita.com/MK_Tech/items/a443fb394abbeb2bae60)
+- Masaru Oguraさん [Amazon Bedrock 生成AIアプリ開発入門の感想文｜Masaru Ogura](https://note.com/masaruogura/n/n2cb9a66aa4cf?sub_rt=share_pb)
