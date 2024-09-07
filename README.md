@@ -78,6 +78,15 @@ Anthropic社の新モデルで、Claude 3 Sonnetの後継となります。性�
 
 - [ついにClaude 3.5 SonnetがAWS東京リージョンのBedrockで利用可能に🎉](https://qiita.com/minorun365/items/e2202774ea357f311243)
 
+#### 【2024/8/6】 Amazonの新モデル「Titan Image Generator v2」がリリース
+
+- [Amazon Titan Image Generator G1 V2と戯れる（Gradioがおすすめ）](https://qiita.com/moritalous/items/29c4d4736d794b75f346)
+- [Amazon Bedrock で Amazon Titan Image Generator v2 が利用可能に](https://aws.amazon.com/jp/blogs/news/amazon-titan-image-generator-v2-is-now-available-in-amazon-bedrock/)
+
+#### 【2024/9/4】 Stability AI社の新モデル「Stable Image Ultra」「Stable Diffusion 3 Large (SD3 Large)」「Stable Image Core」がリリース
+
+- [BedrockにStabilityAIの新たな画像生成モデルが3つ登場しました！](https://qiita.com/hedgehog051/items/446db1c07ac45eea1c9c)
+
 ### ■ Bedrock応用機能のアップデート（対象：第4〜6章ほか）
 
 #### 【2024/7/11】 生成AI関連の大型アップデート多数（Bedrock、Amazon Q、ほか新サービスなど）
@@ -85,6 +94,18 @@ Anthropic社の新モデルで、Claude 3 Sonnetの後継となります。性�
 解説スライドを公開しています。本書を読まれた方は、アップデートをより理解しやすいと思います！
 
 - [宇宙最速で7/11未明のAmazon Bedrock大型アプデを解説 🚀 - Speaker Deck](https://speakerdeck.com/minorun365/11wei-ming-noamazon-bedrockda-xing-apudewojie-shuo)
+
+#### 【2024/8/21】 Bedrockのバッチ推論機能の一般提供開始
+
+「6.4.1 バッチ推論」にて解説している機能が一般提供を開始しました。専用のSDKは不要で利用できます。
+
+- [Amazon Bedrock では、バッチ推論用の厳選された FM をオンデマンド推論価格の 50% で提供しています。](https://aws.amazon.com/jp/about-aws/whats-new/2024/08/amazon-bedrock-fms-batch-inference-50-price/)
+
+#### 【2024/8/27】 クロスリージョン推論をサポート
+
+複数のリージョンを使った動的なルーティングをサポートしました。例えば、「US Anthropic Claude 3.5 Sonnet	」を指定すると、バージニア北部とオレゴンリージョンを使用して推論することができます。指定方法は、モデルIDとしてinference profile（専用のモデルID）を指定します。（例：us.anthropic.claude-3-5-sonnet-20240620-v1:0	）
+
+- [Amazon Bedrock でクロスリージョン推論のサポートを開始](https://aws.amazon.com/jp/about-aws/whats-new/2024/08/amazon-bedrock-cross-region-inference/)
 
 ### ■ Amazon Qのアップデート（対象：第9章）
 
