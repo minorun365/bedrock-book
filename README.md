@@ -115,6 +115,14 @@ Anthropic社の新モデルで、Claude 3 Sonnetの後継となります。性�
 
 - [AWS、Claude 3やAmazon Q for Business日本語版の東京リージョンでの提供時期などを明らかに - クラウド Watch](https://cloud.watch.impress.co.jp/docs/event/1601745.html)
 
+### LangChainのバージョン0.3.0のリリース
+
+LangChainの新バージョン「0.3.0」がリリースされました。（書籍執筆時点では0.2.0でした）。3章、4章、5章でLangChainを使用していますが、ライブラリーのバージョンアップのみで動作することを確認しました。動作確認を行ったディレクトリに「requirements_langchain-0.3.0.txt」を格納しましたので、LangChain 0.3.0で実施する際は、以下のコマンドにてインストールしてください。
+
+```
+pip install -r requirements_langchain-0.3.0.txt
+```
+
 
 ## 💻 読者のみなさまの書評ブログ紹介
 
