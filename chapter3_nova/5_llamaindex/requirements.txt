@@ -1,0 +1,6 @@
+boto3==1.34.131
+distro==1.8.0
+llama-index==0.12.11
+llama-index-embeddings-bedrock==0.4.0
+llama-index-llms-bedrock-converse==0.4.3
+tokenizers==0.21.0
