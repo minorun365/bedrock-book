@@ -44,9 +44,3 @@ pip install -r requirements.txt
 ```shell
 python3.11 2_multi-modal.py
 ```
-
-画面上部にあるPreviewをクリックし、Preview Running Applicationをクリックします。
-
-クリップのアイコンから画像ファイルをアップロードし、プロンプトを入力します。
-
-終わったら`Ctrl` + `c`でGradioアプリを終了します。

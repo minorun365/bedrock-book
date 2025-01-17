@@ -14,13 +14,3 @@ pip install -r requirements.txt
 ```shell
 python3 1_llamaindex.py
 ```
-
-## 注意事項
-
-LlamaIndexのサンプルは、「llama-index-llms-bedrock-converse」ライブラリーの依存関係の都合上、書籍にある他のサンプルコードより新しいバージョンのboto3を使用します。動作に問題が出た場合は、一度インストール済みのライブラリーを削除し、再度pipコマンドを試してください。
-
-インストール済みのライブラリーを削除するコマンド
-
-```shell
-rm -rf  ~/.local/lib/python3.9/site-packages/
-```
