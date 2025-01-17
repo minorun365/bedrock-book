@@ -1,0 +1,5 @@
+boto3==1.36.1
+chainlit==2.0.3
+langchain==0.3.14
+langchain-aws==0.2.11
+langchain-community==0.3.14

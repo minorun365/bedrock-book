@@ -1,0 +1,9 @@
+https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-bedrock-safeguard-ai-applications-guardrails/
+
+Today, we are announcing Guardrails for Amazon Bedrock in preview that enables customers to implement safeguards across foundation models (FMs) based on their use cases and responsible AI policies. Customers can create multiple guardrails tailored to different use cases and apply them across multiple FMs, providing a consistent user experience and standardizing safety controls across generative AI applications.
+
+Customers need to safeguard their generative AI applications for a relevant and safe user experience. While many FMs have built-in protections to filter undesirable and harmful content, customers may want to further tailor interactions specific to their use cases, and adhering to their responsible AI policies. For example, a bank might want to configure its online assistant to refrain from providing investment advice, and limit harmful content. With guardrails, customers can define a set of denied topics that are undesirable within the context of their application and configure thresholds to filter harmful content across categories such as hate, insults, sexual, and violence. Guardrails evaluate user queries and FM responses against the denied topics and content filters, helping to prevent content that falls into restricted categories. This allows customers to closely manage user experiences based on application-specific requirements and policies.
+
+Guardrails are supported for English content across text-based FMs, and fine-tuned models on Amazon Bedrock as well as Agents for Amazon Bedrock. Guardrails for Amazon Bedrock is available in preview in the US East (N. Virginia) and US West (Oregon) Regions.
+
+To learn more about Guardrails for Amazon Bedrock, visit the feature page.
