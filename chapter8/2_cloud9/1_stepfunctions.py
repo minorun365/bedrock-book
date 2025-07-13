@@ -59,6 +59,7 @@ if submit:
         if "Image" in o:
             s3_arn = o["Image"]["Body"]
             body = get_object(s3_arn)
-            image_base64 = body["artifacts"][0]["base64"]
+            image_base64 = body["artifacts"][0]["base64"] ## 書籍に記載のSDXL 1.0を使用する場合
+            # image_base64 = body["images"][0] ## Amazon Nova Canvasを使用する場合
 
             st.image(Image.open(BytesIO(base64.b64decode(image_base64))))
