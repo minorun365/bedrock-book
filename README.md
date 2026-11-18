@@ -135,6 +135,18 @@ pip install -r requirements_langchain-0.3.0.txt
 ```
 
 
+### Gradio・Chainlitの脆弱性への対応（2026/11）
+
+3章で使用しているGradio（4.36.0）とChainlit（1.1.202）には、ファイルの読み取りやセッションの乗っ取りにつながる脆弱性が見つかっています。書籍の手順どおりに試すぶんには、次の2点を守れば大きな問題はありませんが、最新版で試したい方向けに動作確認済みのファイルを追加しました。
+
+- アプリは試し終えたら `Ctrl` + `c` で必ず止める
+- 自分のPCで動かす場合は、Gradioのコードの `server_name="0.0.0.0"` を `server_name="127.0.0.1"` に変える（0.0.0.0のままだと、同じネットワークの他の機器から接続できます。Cloud9のプレビューは127.0.0.1でも表示できます）
+
+最新版で試す場合は、Python 3.11の環境で次のファイルを使ってください。Amazon Nova版（`chapter3_nova`）にも同じファイルを置いています。
+
+- 6_gradio：`pip3.11 install -r requirements_gradio-6.txt`。チャット画面（2_multi-modal.py）はGradio 6で履歴の形式が変わったため、`2_multi-modal_gradio6.py` を実行してください。
+- 7_chainlit：`pip3.11 install -r requirements_chainlit-2.txt`。コードは書籍のままで動きます。
+
 ## 💻 読者のみなさまの書評ブログ紹介
 
 たくさんの素敵なアウトプット、ありがとうございます！！🙇‍♂️
